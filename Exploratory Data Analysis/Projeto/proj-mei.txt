@@ -1,0 +1,15 @@
+- De que forma tencionam responder à questão "Como é que os algoritmos de ordenação são afetados por falhas de memória"
+
+- Quais as variáveis independentes e dependentes que permitem responder à questão.
+
+- Quais as experiências que tencionam efetuar.
+
+- Quais as expetativas sobre os resultados a obter.
+
+
+
+
+-------------
+
+
+Uma nota: No código dos algoritmos de ordenação, a semente do gerador pseudo-aleatório tem em conta o tempo do sistema. Contudo, é possível que a execução do programa para inputs pequenos demore menos tempo do que a resolução da medição temporal.  Desta forma, pode acontecer que o programa seja executado com a mesma semente, o que não faz sentido para a vossa análise. Para contornar isto, sugiro que forcem um pequeno intervalo de tempo entre execuções, por exemplo, de resolução igual ao da medição de tempo (ver sleep()).
